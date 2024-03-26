@@ -1,7 +1,22 @@
 <h1 align="center">Chan Young Song</h1>
 <h3 align="center">A machine learning engineer on a life long journey of continuous learning</h3>
 
-- 📫 How to reach me **chanyoungs@gmail.com**
+-   📫 How to reach me **chanyoungs@gmail.com**
+
+## Check out some of my work
+
+### [Inter-Transactional Patterns Miner(itpminer) python package](https://github.com/Local-E-Rewards-ML/itpminer)
+
+While working for [Local E](https://www.burdi.app/)(since renamed to burdi), I and my colleague [o-j-bradley](https://github.com/o-j-bradley) implemented an association rule mining algorithm based on an existing research paper. This is a good example of tested and typed python implementation which has been published in Pypi and conda. My contributions:
+
+-   Understand and implement the algorithm as set by the paper:
+
+        Anthony J.T. Lee, Chun-Sheng Wang, An efficient algorithm for mining frequent inter-transaction patterns, Information Sciences, Volume 177, Issue 17, 2007, Pages 3453-3476, ISSN 0020-0255, https://doi.org/10.1016/j.ins.2007.03.007. (https://www.sciencedirect.com/science/article/pii/S002002550700151X) Keywords: Association rules; Data mining; Inter-transaction patterns
+
+-   Automated testing using [pytest](https://docs.pytest.org/)
+-   Make the code typed using [mypy](https://github.com/python/mypy)
+-   Generate package using [cookiecutter](https://github.com/cookiecutter/cookiecutter)
+-   Publish on [pypi](https://pypi.python.org/pypi/itpminer) and [conda-forge](https://anaconda.org/conda-forge/itpminer)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
