@@ -48,6 +48,20 @@ This project was used to enter for an online AI bot competition for a game of [U
 - Monte Carlo Tree Search algorithm has been implemented from scratch in C++
 - The bot put me up in Gold League
 
+### Custom neural network implementation using NumPy: [Github link](https://github.com/chanyoungs/Machine-Learning)
+
+<div style="display: flex; justify-content: center">
+<img src="media/mnist.png" style="width:20%">
+</div>
+
+In this mini project, MNIST was solved using various ML libraries:
+- Keras
+- Tensorflow
+- Pytorch
+- NumPy
+
+Of note, a custom neural network layers module `chanflow` was implemented using NumPy which mimics the call structure of `tensorflow`.
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
