@@ -5,9 +5,9 @@
 
 ## Inter-Transactional Patterns Miner(itpminer) python package: [Github link](https://github.com/Local-E-Rewards-ML/itpminer)
 
-<div style="text-align:center">
+<p align="center" width="100%">
 <img src="media/itp-miner.png" style="width:50%">
-</div>
+</p>
 
 While working for [Local E](https://www.burdi.app/)(since renamed to burdi) between 2021-22, I and my colleague [o-j-bradley](https://github.com/o-j-bradley) implemented an association rule mining algorithm based on an existing research paper. This is a good example of tested and typed python implementation which has been published in pypi and conda. My contributions:
 
@@ -22,9 +22,9 @@ While working for [Local E](https://www.burdi.app/)(since renamed to burdi) betw
 
 ## Music Ear: [Github link](https://github.com/chanyoungs/musicear)
 
-<div style="text-align:center">
+<p align="center" width="100%">
 <img src="media/musicear.png" style="width:20%">
-</div>
+</p>
 
 This was a personal project to create a web app for training your musical ear for attaining relative pitch. Deployed link: [musicear.web.app](https://musicear.web.app/).
 
@@ -38,9 +38,9 @@ Technology used:
 
 ## Monte Carlo Tree Search in C++: [Github link](https://github.com/chanyoungs/Ultimate-Tic-Tac-Toe-CPP)
 
-<div style="text-align:center">
+<p align="center" width="100%">
 <img src="media/ultimate-tic-tac-toe.png" style="width:50%">
-</div>
+</p>
 
 This project was used to enter for an online AI bot competition for a game of [Ultimate Tic Tac Toe](https://www.codingame.com/multiplayer/bot-programming/tic-tac-toe) in [codingame.com](https://www.codingame.com).
 - Monte Carlo Tree Search algorithm has been implemented from scratch in C++
@@ -48,9 +48,9 @@ This project was used to enter for an online AI bot competition for a game of [U
 
 ## Custom neural network implementation using NumPy: [Github link](https://github.com/chanyoungs/Machine-Learning)
 
-<div style="text-align:center">
+<p align="center" width="100%">
 <img src="media/mnist.png" style="width:20%">
-</div>
+</p>
 
 In this mini project, MNIST was solved using various ML libraries:
 - Keras
