@@ -64,7 +64,7 @@ Of note, a custom neural network layers module `chanflow` was implemented using 
 
 # Languages and Tools:
 
-<p align="left" width="100%">
+<p align="center" width="100%">
     <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
         <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash"
             width="40" height="40" />
@@ -155,18 +155,18 @@ Of note, a custom neural network layers module `chanflow` was implemented using 
     </a>
 </p>
 
-<p align="left" width="100%">
+<p align="center" width="100%">
     <img 
         src="https://github-readme-stats.vercel.app/api/top-langs?username=chanyoungs&show_icons=true&locale=en&layout=compact"
         alt="chanyoungs" />
 </p>
 
-<p align="left" width="100%">
+<p align="center" width="100%">
 <img 
         src="https://github-readme-stats.vercel.app/api?username=chanyoungs&show_icons=true&locale=en"
         alt="chanyoungs" /></p>
 
-<p align="left" width="100%">
+<p align="center" width="100%">
     <img  src="https://github-readme-streak-stats.herokuapp.com/?user=chanyoungs&"
         alt="chanyoungs" />
 </p>
