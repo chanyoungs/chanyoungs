@@ -5,7 +5,7 @@
 
 ## Inter-Transactional Patterns Miner(itpminer) python package: [Github link](https://github.com/Local-E-Rewards-ML/itpminer)
 
-<div style="width: 100%; display: flex; justify-content: center">
+<div style="text-align:center">
 <img src="media/itp-miner.png" style="width:50%">
 </div>
 
@@ -22,7 +22,7 @@ While working for [Local E](https://www.burdi.app/)(since renamed to burdi) betw
 
 ## Music Ear: [Github link](https://github.com/chanyoungs/musicear)
 
-<div style="width: 100%; display: flex; justify-content: center">
+<div style="text-align:center">
 <img src="media/musicear.png" style="width:20%">
 </div>
 
@@ -38,7 +38,7 @@ Technology used:
 
 ## Monte Carlo Tree Search in C++: [Github link](https://github.com/chanyoungs/Ultimate-Tic-Tac-Toe-CPP)
 
-<div style="width: 100%; display: flex; justify-content: center">
+<div style="text-align:center">
 <img src="media/ultimate-tic-tac-toe.png" style="width:50%">
 </div>
 
@@ -48,7 +48,7 @@ This project was used to enter for an online AI bot competition for a game of [U
 
 ## Custom neural network implementation using NumPy: [Github link](https://github.com/chanyoungs/Machine-Learning)
 
-<div style="width: 100%; display: flex; justify-content: center">
+<div style="text-align:center">
 <img src="media/mnist.png" style="width:20%">
 </div>
 
