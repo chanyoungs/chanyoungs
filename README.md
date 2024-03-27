@@ -1,17 +1,17 @@
 <h1 align="center">Chan Young Song</h1>
-<h3 align="center">A machine learning engineer on a life long journey of continuous learning</h3>
+<h3 align="center">A machine learning engineer keen on continued learning</h3>
 
 -   📫 How to reach me **chanyoungs@gmail.com**
 
 ## Check out some of my work
 
-### [Inter-Transactional Patterns Miner(itpminer) python package](https://github.com/Local-E-Rewards-ML/itpminer)
+### Inter-Transactional Patterns Miner(itpminer) python package: [Github link](https://github.com/Local-E-Rewards-ML/itpminer)
 
 <div style="display: flex; justify-content: center">
 <img src="media/itp-miner.png" style="width:50%">
 </div>
 
-While working for [Local E](https://www.burdi.app/)(since renamed to burdi) between 2021-22, I and my colleague [o-j-bradley](https://github.com/o-j-bradley) implemented an association rule mining algorithm based on an existing research paper. This is a good example of tested and typed python implementation which has been published in Pypi and conda. My contributions:
+While working for [Local E](https://www.burdi.app/)(since renamed to burdi) between 2021-22, I and my colleague [o-j-bradley](https://github.com/o-j-bradley) implemented an association rule mining algorithm based on an existing research paper. This is a good example of tested and typed python implementation which has been published in pypi and conda. My contributions:
 
 -   Understand and implement the algorithm as set by the paper:
 
@@ -22,7 +22,7 @@ While working for [Local E](https://www.burdi.app/)(since renamed to burdi) betw
 -   Generate package using [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 -   Publish on [pypi](https://pypi.python.org/pypi/itpminer) and [conda-forge](https://anaconda.org/conda-forge/itpminer)
 
-### [Music Ear](https://github.com/chanyoungs/musicear)
+### Music Ear: [Github link](https://github.com/chanyoungs/musicear)
 
 <div style="display: flex; justify-content: center">
 <img src="media/musicear.png" style="width:20%">
@@ -32,11 +32,22 @@ This was a personal project to create a web app for training your musical ear fo
 
 Technology used:
 
-- React
-- Redux
-- Typescript
-- Firebase
-- Material-UI
+-   React
+-   Redux
+-   Typescript
+-   Firebase
+-   Material-UI
+
+### Monte Carlo Tree Search in C++: [Github link](https://github.com/chanyoungs/Ultimate-Tic-Tac-Toe-CPP)
+
+<div style="display: flex; justify-content: center">
+<img src="media/ultimate-tic-tac-toe.png" style="width:50%">
+</div>
+
+This project was used to enter for an online AI bot competition for a game of [Ultimate Tic Tac Toe](https://www.codingame.com/multiplayer/bot-programming/tic-tac-toe) in [codingame.com](https://www.codingame.com).
+- Monte Carlo Tree Search algorithm has been implemented from scratch in C++
+- The bot put me up in Gold League
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
