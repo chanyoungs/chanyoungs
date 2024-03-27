@@ -3,9 +3,7 @@
 
 -   📫 How to reach me **chanyoungs@gmail.com**
 
-## Check out some of my work
-
-### Inter-Transactional Patterns Miner(itpminer) python package: [Github link](https://github.com/Local-E-Rewards-ML/itpminer)
+## Inter-Transactional Patterns Miner(itpminer) python package: [Github link](https://github.com/Local-E-Rewards-ML/itpminer)
 
 <div style="display: flex; justify-content: center">
 <img src="media/itp-miner.png" style="width:50%">
@@ -22,7 +20,7 @@ While working for [Local E](https://www.burdi.app/)(since renamed to burdi) betw
 -   Generate package using [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 -   Publish on [pypi](https://pypi.python.org/pypi/itpminer) and [conda-forge](https://anaconda.org/conda-forge/itpminer)
 
-### Music Ear: [Github link](https://github.com/chanyoungs/musicear)
+## Music Ear: [Github link](https://github.com/chanyoungs/musicear)
 
 <div style="display: flex; justify-content: center">
 <img src="media/musicear.png" style="width:20%">
@@ -38,7 +36,7 @@ Technology used:
 -   Firebase
 -   Material-UI
 
-### Monte Carlo Tree Search in C++: [Github link](https://github.com/chanyoungs/Ultimate-Tic-Tac-Toe-CPP)
+## Monte Carlo Tree Search in C++: [Github link](https://github.com/chanyoungs/Ultimate-Tic-Tac-Toe-CPP)
 
 <div style="display: flex; justify-content: center">
 <img src="media/ultimate-tic-tac-toe.png" style="width:50%">
@@ -48,7 +46,7 @@ This project was used to enter for an online AI bot competition for a game of [U
 - Monte Carlo Tree Search algorithm has been implemented from scratch in C++
 - The bot put me up in Gold League
 
-### Custom neural network implementation using NumPy: [Github link](https://github.com/chanyoungs/Machine-Learning)
+## Custom neural network implementation using NumPy: [Github link](https://github.com/chanyoungs/Machine-Learning)
 
 <div style="display: flex; justify-content: center">
 <img src="media/mnist.png" style="width:20%">
