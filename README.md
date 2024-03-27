@@ -62,6 +62,16 @@ In this mini project, MNIST was solved using various ML libraries:
 
 Of note, a custom neural network layers module `chanflow` was implemented using NumPy which mimics the call structure of `tensorflow`.
 
+## Comparing the VAE and the β-VAE under various latent bottleneck dimensionalities and data complexities: [Github link](https://github.com/chanyoungs/ucl_project_2018)
+
+<p align="center" width="100%">
+<img src="media/ucl-dissertation-appendix.png" style="width:70%">
+</p>
+
+-   Model implementation is mainly based on https://github.com/miyosuda/disentangled_vae.
+-   `data_generator` contains custom generator which generated the 2d and 3d sprites used for training and testing the β-VAE model.
+-   Used to write the UCL MSc Machine Learning dissertation paper `Comparing the VAE and the Beta-VAE under various latent bottleneck dimensionalities and data complexities`. See the paper [here](https://drive.google.com/file/d/1m7UGkXVwrz2D1sS9H-yw8VmQf7-O8N6I/view).
+
 # Languages and Tools:
 
 <p align="center" width="100%">
