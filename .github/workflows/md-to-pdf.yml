@@ -16,16 +16,30 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Add texlive-xetex to ensure the xelatex engine is installed
-      - name: Install Pandoc and LaTeX
+      # Step 1: Install Pandoc and the new PDF engine, wkhtmltopdf
+      - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra texlive-xetex
+          sudo apt-get install -y pandoc wkhtmltopdf
 
+      # Step 2: Download a GitHub-style CSS for styling the document
+      - name: Download GitHub CSS Style
+        run: |
+          wget https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css
+
+      # Step 3: Convert README to PDF using the new engine and CSS
+      # --pdf-engine=wkhtmltopdf: Use the HTML-to-PDF converter.
+      # -c github-markdown.min.css: Apply the downloaded CSS file.
+      # --metadata pagetitle="README": Sets the document title.
       - name: Convert README.md to PDF
         run: |
-          pandoc --pdf-engine=xelatex README.md -o README.pdf
+          pandoc README.md \
+            --pdf-engine=wkhtmltopdf \
+            -c github-markdown.min.css \
+            --metadata pagetitle="README" \
+            -o README.pdf
 
+      # Step 4: Upload the final PDF artifact
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
