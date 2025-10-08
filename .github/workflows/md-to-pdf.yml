@@ -1,21 +1,40 @@
+# .github/workflows/build-pdf.yml
+
+name: Generate PDF from README
+
+# This section defines the triggers for the workflow.
+# It will run on pushes to the 'main' branch and can also be triggered manually.
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows you to run this workflow manually from the Actions tab
+
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Check out the repository's code so the workflow can access it.
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Step 2: Install Pandoc and the necessary LaTeX packages.
+      # texlive-latex-extra is important as it includes the xelatex engine.
       - name: Install Pandoc and LaTeX
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
 
+      # Step 3: Convert the README.md file to PDF using Pandoc.
+      # We use the '--pdf-engine=xelatex' flag for full Unicode support,
+      # which prevents errors with special characters.
       - name: Convert README.md to PDF
         run: |
-          # Use the xelatex engine for full Unicode support
           pandoc --pdf-engine=xelatex README.md -o README.pdf
 
+      # Step 4: Upload the generated PDF as a workflow artifact.
+      # This allows you to download the PDF from the workflow run's summary page.
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
